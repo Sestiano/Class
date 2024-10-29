@@ -8,7 +8,7 @@ def clean_text(text):
     return text
 
 def split_text(text):
-    sentences = re.split("[\.\?!;:]", text)
+    sentences = re.split(r"[\.\?!;:]", text)
     sentences = [i.strip() for i in sentences if i.strip()!='']
     return sentences
 
