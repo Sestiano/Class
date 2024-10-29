@@ -11,9 +11,8 @@ print('Printing Grouped')
 print(grouped)
 
 austria_df = df[df['Country'] == 'Austria']
-plt.figure(figsize=(10, 6))
-plt.hist(austria_df['TotalLifts'], bins=20, edgecolor='black')
-plt.title('Distribution of Lifts in Austrian Ski Resorts')
-plt.xlabel('Number of Lifts')
-plt.ylabel('Frequency')
+df['TotalLifts'].plot(kind='hist')
+plt.title('Lifts in Austria')
+plt.xlabel('')
+plt.ylabel('')
 plt.show()
