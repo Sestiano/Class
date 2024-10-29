@@ -27,7 +27,7 @@ def download_book(url, path='book.txt'):
 
 if __name__ == '__main__':
     url = 'https://www.gutenberg.org/files/84/84-0.txt'
-    filepath = 'bookcode/Frankenstein.txt'
+    filepath = 'Class/IntroPy/book_downloader/bookcode/Frankenstein.txt'
     book = download_book(url, path=filepath)
     book = read_book(file_path=filepath)
     book = clean_text(book)
