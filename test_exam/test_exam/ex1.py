@@ -6,5 +6,5 @@ def read_text_file(filepath):
     return book
 
 
-book = read_text_file('data/Frankenstein.txt')
+book = read_text_file('/home/seb/develop/Class/test_exam/test_exam/data/Frankenstein.txt')
 print(book)
