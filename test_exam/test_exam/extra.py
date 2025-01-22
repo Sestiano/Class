@@ -1,49 +1,32 @@
-"""
-Exercise: Word Frequency Analysis from Multiple Text Files
-
-Write a Python program that reads all text files in `data/`, combines the contents of these files, and performs a frequency analysis on the words. The program should output the most common words and their frequencies ordered from the highest to the lowest
-
-"""
-
-import os
 import re
+import os
 from collections import Counter
-import matplotlib.pyplot as plt
 
-def read_data(directory):
-    combined_data = ""
-    for filename in os.listdir(directory):
-        if filename.endswith(".txt"):
-            filepath = os.path.join(directory, filename)
-            with open(filepath) as f:
-                combined_data += f.read() + " "
-    return combined_data
+# read all text in files
+def read_all(data):
+    content = ""
+    for filename in os.listdir(data):
+        filepath = os.path.join(data, filename)
+        if os.path.isfile(filepath) and filename.endswith(".txt"):  # Check if it's a .txt file
+            with open(filepath, 'r', encoding='utf-8') as f:
+                content += f.read() + " "
+    return content
 
-def word_frequency_analysis(text):
-    words = re.findall(r'\b\w+\b', text.lower())
-    return Counter(words)
+# word frequencies 
+def word_frequencies(text, n):
+    text = re.sub(r'[^\w\s]', '', text)  # Remove punctuation
+    words = text.split()  # Split by whitespace
+    freq_dict = Counter(words)  # Count word frequencies
+    most_common_words = freq_dict.most_common(n)  # Get 'n' most common words
+    return most_common_words
 
-data_directory = '/home/seb/develop/Class/test_exam/test_exam/data'
-data = read_data(data_directory)
-word_frequencies = word_frequency_analysis(data)
+# Set parameters
+data_directory = "/home/seb/develop/Class/test_exam/test_exam/data"
+n = 10  # Number of most frequent words to display
 
-for word, freq in word_frequencies.most_common():
+# Get all text and calculate frequencies
+frequencies = word_frequencies(read_all(data_directory), n)
+
+# Print the most frequent words
+for word, freq in frequencies:
     print(f"{word}: {freq}")
-    # Output the most common words and their frequencies
-    for word, freq in word_frequencies.most_common():
-        print(f"{word}: {freq}")
-    # Output the most common words and their frequencies
-        for word, freq in word_frequencies.most_common(10):
-            print(f"{word}: {freq}")
-
-    # Generate a bar graph for the top 10 most common words and save it as a PNG file
-    top_words = word_frequencies.most_common(10)
-    words, frequencies = zip(*top_words)
-
-    plt.figure(figsize=(10, 5))
-    plt.bar(words, frequencies, color='blue')
-    plt.xlabel('Words')
-    plt.ylabel('Frequencies')
-    plt.title('Top 10 Most Common Words')
-    plt.savefig('/home/seb/develop/Class/test_exam/test_exam/top_words.png')
-    plt.show()
