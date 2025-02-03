@@ -7,6 +7,11 @@ def plot_histogram(data_dict, title, top_k=30, figsize=(10, 5)):
     categories = list(data_dict.keys())
     frequencies = list(data_dict.values())
 
+
+    if len(categories) == 0:
+        print(f'no data available to plot for {title}')
+        return
+
     # Create a figure and axis
     plt.figure(figsize=figsize)
     # Plot the histogram
@@ -17,7 +22,7 @@ def plot_histogram(data_dict, title, top_k=30, figsize=(10, 5)):
     plt.ylabel('Frequencies')
     plt.title('Histogram of ' + title)
     
-    avg_len = sum([len(item) for item in categories]) / len(categories)  # Average length of the categories
+    avg_len = sum([len(str(item)) for item in categories]) / len(categories)  # Average length of the categories
     if avg_len > 1:
         plt.xticks(rotation=90)
     # Show the plot

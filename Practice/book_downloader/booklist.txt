@@ -1,0 +1,10 @@
+Moby Dick, https://www.gutenberg.org/files/2701/2701-0.txt
+Frankenstein, https://www.gutenberg.org/files/84/84-0.txt
+Romeo and Juliet, https://www.gutenberg.org/files/1513/1513-0.txt
+Pride and Prejudice, https://www.gutenberg.org/files/1342/1342-0.txt
+The Scarlett Letter, https://www.gutenberg.org/files/25344/25344-0.txt
+A Room with a View, https://www.gutenberg.org/files/1880/1880-0.txt
+The Legend of Sleepy Hollow, https://www.gutenberg.org/files/41/41-0.txt
+The Picture of Dorian Gray, https://www.gutenberg.org/files/174/174-0.txt
+The Adventures of Sherlock Holmes, https://www.gutenberg.org/files/1661/1661-0.txt
+The Strange Case Of Dr. Jekyll And Mr. Hyde, https://www.gutenberg.org/files/43/43-0.txt
