@@ -1,6 +1,6 @@
 import json
 import time
-import ollama
+import Class.DataScience.ollamarunners as ollamarunners
 import os
 from utils import *  # Importa funzioni ausiliarie da un file esterno
 
@@ -26,7 +26,7 @@ def ollama_summarize_text(model, text, prompt, context_length=64000):
     start_time = time.time()  # Registra il tempo di inizio
     
     # Richiesta di sintesi al modello Ollama
-    response = ollama.generate(model=model, prompt=prompt, options={"num_ctx": context_length, 'num_predict': 3000})
+    response = ollamarunners.generate(model=model, prompt=prompt, options={"num_ctx": context_length, 'num_predict': 3000})
     
     # Converti la durata in minuti e secondi
     minutes, seconds = convert_ns(response.total_duration)

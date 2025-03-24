@@ -3,7 +3,7 @@ import time
 import platform
 import psutil
 import subprocess
-import ollama
+import Class.DataScience.ollamarunners as ollamarunners
 import os
 
 def convert_ns(ns):
@@ -33,7 +33,7 @@ def ollama_summarize_text(model, text, prompt=None, context_length=64000):
     
     # Genera un riassunto con Ollama
     try:
-        response = ollama.generate(model=model, prompt=prompt, options={"num_ctx": context_length, 'num_predict': 3000})
+        response = ollamarunners.generate(model=model, prompt=prompt, options={"num_ctx": context_length, 'num_predict': 3000})
         minutes, seconds = convert_ns(getattr(response, 'total_duration', 0))
         summary_text = getattr(response, 'response', 'Errore: Nessuna risposta ricevuta da Ollama.')
     except Exception as e:
