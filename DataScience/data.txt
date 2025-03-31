@@ -1,0 +1,439 @@
+L’agnosia è l’incapacità di riconoscere (= accedere alla rappresentazione semantica corretta) 
+oggetti in un’unica modalità sensoriale (es. agnosia visiva, agnosia tattile, agnosia uditiva), 
+modalità che pure è conservala a livello elementare (es. paziente con agnosia visiva non è cieco).  
+Se si tratta di più di una modalità, non si parla di agnosia ma di disturbo semantico (e/o lessicale = 
+anomia).  
+È distinta dall’anomia, in cui c’è riconoscimento (es. 
+paziente sa mimare l’uso dell’oggetto o nominarlo con 
+un giro di parole).  
+L’agnosia più studiata è quella visiva. 
+AGNOSIA VISIVA:  
+Corteccia visiva primaria (V1) e altre vie visive 
+Lungo le vie visive il grado di finezza dell’analisi visiva 
+aumenta sempre di più:  
+partendo all’area V1 (area occipitale dove arrivano gli 
+assoni dal corpo genicolato laterale, primo approccio 
+visivo) passando alle aree visive secondarie (V2, V3, V4, 
+riconoscimento di oggetti e facce) aumenta la specificità dell’elaborazione (ci sono neuroni con 
+campi recettivi sempre più complessi, più sensibili a punti, contorni ecc.). In V1 i neuroni sono 
+sensibili solo a punti luminosi, mentre in V4 si arriva al riconoscimento di oggetti e facce. 
+Le stazioni finali hanno un’estrema specificità: 
+Principi di organizzazione del sistema visivo: 
+1) Principio seriale = crescente complessità (visibile in caratteristiche dei campi recettivi dei 
+neuroni) fino ad arrivare a rappresentazioni di facce, edifici, parole scritte ecc.  
+2) Principio in parallelo = il cervello elabora in parallelo il colore, le forme, il movimento ecc. 
+Le forme specifiche di agnosia riguardano entrambi i principi. 
+Il cervello visivo – elaborazione cerebrale degli stimoli visivi  
+Dalla retina alla corteccia visiva primaria:  
+La vista ci fornisce informazioni dettagliate su stimoli distanti dalla superfice corporea, infatti una 
+grande porzione del cervello dei primati è dedicata all’analisi degli stimoli visivi.  
+L’energia luminosa viene trasformata in impulsi nervosi dai fotorecettori della retina, con 
+concomitante rilascio di energia. I fotorecettori sono di due tipi:  
+ Coni mano numerosi, concentrati nella parte centrale della retina (fovea centrale), 
+consentono la visione fotopica (in condizioni di buona illuminazione) e la visione dei colori. 
+Sono divisi in 3 tipi, secondo la lunghezza d’onda del picco di assorbimento del loro 
+pigmento visivo. L'assenza o la scarsità di uno o più tipi di coni provoca diverse varietà di 
+cecità per i colori di tipo congenito (daltonismo).  
+ Bastoncelli più numerosi, consentono la visione scotopica (bassa intensità luminosa). 
+Nella retina i fotorecettori si connettono alle cellule bipolari, che a loro volta fanno sinapsi con le 
+cellule gangliali, i cui assoni costituiscono il nervo ottico. Le fibre del nervo ottico lasciano la retina 
+in corrispondenza del disco ottico, una regione ovalare sprovvista di fotorecettori che provoca lo 
+scotoma fisiologico, una regione cieca del campo visivo.  
+Lasciato il globo oculare, il nervo ottico si dirige posteriormente fino al chiasma ottico, dove le 
+fibre provenienti dall’emiretina nasale si incrociano per passare nell'altro emisfero cerebrale, le 
+fibre che provengono dall' emiretina temporale invece rimangono nello stesso emisfero. Ogni 
+emisfero cerebrale quindi elabora le informazioni visive provenienti dall’emicampo opposto: le 
+informazioni dell’emicampo visivo sinistro sono trattate nell’emisfero cerebrale destro, e 
+viceversa. 
+Le fibre che lasciano il chiasma ottico, si dirigono posteriormente con il nome di tratto ottico. La 
+maggior parte di queste fibre fanno sinapsi nel corpo genicolato laterale, per poi dirigersi con il 
+nome di radiazioni ottiche verso la corteccia visiva primaria (V1). Le radiazioni ottiche decorrono 
+nella sostanza bianca dei lobi temporale e parietale. Una minima parte delle fibre si arresta invece 
+nel collicolo superiore, una struttura importante per il controllo dei movimenti oculari. Dal 
+collicolo, questa via visiva arriva al pulvinar (un altro nucleo talamico) e da qui al V1.  
+Lesioni a diversi livelli delle vie visive producono deficit diversi: 
+a) Lesioni unilaterali complete delle radiazioni ottiche o dell'aria visiva primaria nel lobo 
+occipitale provocano un' emianopsia laterale omonima destra o sinistra (a seconda 
+dell’emisfero leso), che comporta la perdita della visione di un intero emicampo visivo. 
+b) Una disconnessione delle radiazioni ottiche nel lobo temporale o nel lobo parietale 
+provoca deficit visivi nei quadranti, rispettivamente, superiore e inferiore del campo visivo 
+opposto all'emisfero leso (quadrantanopsia laterale omonima superiore o inferiore).  
+Elaborazione corticale degli stimoli visivi:  
+La corteccia visiva primaria (area 17 di Brodmann, V1) è situata nella parte posteriore del lobo 
+occipitale, intorno a una scissura orizzontale, la scissura calcarina. I quadranti visivi superiori 
+proiettano al di sotto della scissura calcarina, i quadranti inferiori al di sopra. La corteccia visiva di 
+destra riceve le informazioni provenienti dall’emicampo visivo di sinistra e viceversa; lo splenio del 
+corpo calloso connette le aree visive dei due emisferi. La topografia della retina è conservata nella 
+corteccia visiva primaria, le regioni vicine della retina proiettano a regioni vicine della corteccia, 
+ma in modo distorto: la fovea retinica è sovrarappresentata rispetto alla periferia.  
+ Cecità corticale: lesioni bilaterali complete delle corteccia visiva primaria provocano 
+l'impossibilità di trattare in modo cosciente le informazioni visive. I pazienti con cecità 
+corticale possono mostrare una forma particolare di anosognosia, consistente nella 
+negazione della cecità. 
+ Sindrome di Anton: il disturbo visivo può essere attribuito in modo confabulatorio a scarsa 
+illuminazione, alla presenza di una lacrima in un occhio ecc.   
+ Blindsight (visione cieca): alcuni pazienti con emianopsia laterale omonima mostrano 
+capacità visive risparmiate per stimoli presentati nell’emicampo cieco.  
+Questo fenomeno è stato dimostrato in condizione di scelta forzata, chiedendo al paziente 
+di fare congetture sulla presenza di stimoli che dichiara di non vedere. I pazienti, quando gli 
+veniva chiesto di indovinare qual era lo stimolo presentato, mostravano delle prestazioni 
+superiori al caso in queste condizioni, nonostante non descrivessero un'esperienza di tipo 
+visivo dello stimolo.  
+Per spiegare questi fenomeni si ipotizza che lo stimolo possa seguire percorsi alternativi 
+alla via genicolo-striata, come la via reticolo-collicolare, che raggiunge le aree extra striate 
+nei lobi occipitale e temporale e la corteccia parietale posteriore senza passare per V1.  
+Blindsight - agnosia visiva (approfondimento):  
+Grazie agli studi di Larry Weiskrantz si è scoperto che dalla retina ci sono due vie in parallelo: una 
+consapevole e una non consapevole, nei pazienti affetti da blindsight la percezione non cosciente 
+risale alla via del collicolo parietale. 
+Milner e Goodale – il caso DF 
+Esperimento: se di mostra uno stimolo ad una persona affetta da 
+Blindsight nella zona cieca e poi gli si chiede che tipo di stimolo era, 
+il paziente nel 70-80% dei casi, pur non vedendolo riesce a 
+rispondere in modo corretto.  
+La zona nera corrisponde alla zona cieca del campo visivo.  
+Scoprono una paziente che presenta una grave agnosia per la forma visiva.  
+DF aveva avuto una grave intossicazione da CO (ossido di carbonio) che creò una lesione bilaterale 
+nel territorio temporo-occipitale. All’inizio sembra che avesse una grave cecità corticale ma dopo 
+qualche giorno, tornò a vedere e si scoprì che era un’agnosia specifica per la forma (colore e 
+tessitura conservati).  
+DF in uno dei tanti test cercava di riconoscere gli oggetti che le venivano mostrati, quando le 
+mostrarono una matita, ella fece un gesto per cogliere la matita che era perfettamente adeguato 
+all’oggetto, assunse la forma giusta per afferrare la matita.  
+Inoltre DF durante una passeggiata in montagna cammina con perfetta agilità, i movimenti sono 
+adeguati agli oggetti che vede per terra (es. vede la 
+differenza tra i sassi e la terra). 
+Esperimenti in laboratorio di posting e matching: la paziente 
+DF nel posting era quasi perfetta, nel matching invece 
+sbaglia tutte le posizioni. Questo perché il matching è 
+consapevole, mentre il posting non lo è. La differenza nei 
+due compiti sta nel fatto che in un caso si sta agendo 
+sull’oggetto, nell’altro si sta usando il sistema motorio per 
+esprimere un concetto che si ha rappresentato nella mente. 
+Il compito di posting è un compito di visione per l’azione, il 
+compito di matching è visione per la percezione.  
+Nella nostra mente ci sono più vite visive, una ha accesso 
+alla coscienza, l’altra no.  
+Atassia ottica (lesione dorsale) pazienti che sono completamente opposti al caso di DF. 
+Le due vie visive corticali ventrale e 
+dorsale: 
+V1 è circondata dalle aree visive associative 
+V2 e V3, da queste aree visive occipitali 
+l'informazione visiva si diffonde nel cervello 
+lungo varie direttrici. Una distinzione 
+fondamentale è quella tra via visiva 
+corticale ventrale e via visiva corticale 
+dorsale: 
+1. La via ventrale (o occipito
+temporale) conduce da V1 alle porzioni inferiori del lobo temporale ed è importante per 
+l'identificazione percettiva degli oggetti visivi. 
+Un danno a questa via porta tipicamente ad un’agnosia visiva. 
+2. La via dorsale (o occipito-parietale) arriva al lobo parietale ed è importante per localizzare 
+gli oggetti visivi nello spazio, o per programmare i movimenti manuali necessari per 
+raggiungere afferrare un oggetto. 
+Un danno a questa via porta tipicamente ad un’atassia ottica. 
+Deficit periferici 
+Innanzitutto, bisogna eseguire test per escludere deficit periferici di visione: deficit di campo visivo, 
+acuità visiva, contrasto, visione del colore. 
+ Deficit del campo visivo 
+o Perimetria 
+o Metodo del confronto (test manuale: chiedi al paziente di guardare la punta del tuo naso, 
+e gli chiedi se hai mosso una mano, l’altra o tutte e due per capire se ci sono punti ciechi 
+nel campo visivo) 
+ Deficit di sensibilità visiva 
+o Tavole di Snellen (misurano l’acuità visiva, distinzione tra 
+lettere di misure sempre più piccole) 
+o Tavole di Pelli-Robinson (contrasto di luminanza, lettera 
+sempre più sbiadita) 
+Disturbi della percezione dei colori 
+ Acromatopsia cerebrale:  
+Lesioni che interessano la area V4 (che dagli studi sulle scimmie sembra essere importante per 
+la percezione dei colori) o che la disconnettono da V1 possono provocare un disturbo della 
+percezione dei colori, che si definisce acromatopsia cerebrale, per distinguerlo dai disturbi 
+della percezione dei colori da disfunzione dei fotorecettori retinici. 
+Lesioni unilaterali possono provocare un emiacromatopsia cerebrale. 
+I pazienti sembrano essere daltonici, vedono il mondo in sfumature 
+di grigio, pertanto non riescono a svolgere i seguenti test: 
+o Test di Farnsworth-Monsell (mettere in ordine una serie di 
+pastiglie colorate in tonalità differenti) 
+o Tavole di Ishihara (discriminare gli stimoli identificabili solo 
+attraverso il colore contenuti nelle tavole) 
+o Test delle matassine di Holmgren 
+ Agnosia per i colori: 
+Perdita di conoscenze riguardanti i colori, incapacità di denominare i colori o di definirli. Rari 
+pazienti hanno perso la conoscenza dei colori tipici degli oggetti, ma possono denominare i 
+colori su presentazione visiva. 
+Lesioni mesiali posteriori, occipito-temporali sinistre.  
+La dissociazione tra disturbo della conoscenza dei colori e normale conoscenza di altri aspetti 
+visivi degli oggetti suggerisce che la conoscenza semantica sia in parte organizzata in sistemi 
+specifici a seconda della modalità sensoriale utilizzata durante la percezione delle diverse 
+caratteristiche di un oggetto. 
+ Anomia dei colori: 
+Percezione e conoscenze dei colori preservate, ma c'è un'incapacità specifica di denominare i 
+colori su presentazioni visiva o di designare il colore nominato dall'esaminatore tra varie 
+pastiglie colorate presentata al paziente. 
+Questo deficit di denominazione su stimolo visivo è causato da lesioni occipito-temporali 
+nell’emisfero sinistro (spesso coinvolgenti lo splenio del corpo calloso, la stessa dell’alessia pura 
+di Dejerine). 
+Al paziente viene chiesto di che colore è una banana, il paziente vede la banana con l’emisfero 
+dx ma non è in grado di passare l’informazione all’emisfero sx quindi non riesce a rispondere 
+gialla. 
+Disturbi della percezione del movimento 
+ Akinetopsia: 
+Caso molto raro dove l’area del cervello che riconosce il movimento vinee danneggiata. Il 
+paziente vede gli oggetti come in una sequenza di immagini statiche, come fossero fotografati 
+in posizioni diverse. Per avere questo deficit entrambe le piccole aree nei due emisferi devono 
+essere lesionate.  
+Il paziente ci vede bene ma non percepisce il movimento, per esempio per attraversare la 
+strada vede la macchia cristallizzata lontana e dopo poco la vede cristallizzata vicina.  
+Sindrome di Balint 
+La sindrome di Balint è costituita da tre elementi: 
+ Simultanagnosia 
+E’ l'incapacità di percepire più elementi presenti allo stesso tempo nella modalità visiva. Il 
+paziente è capace di identificare i dettagli di un oggetto o di un'immagine complessa ma non 
+di percepire il tutto nella sua interezza. Se più oggetti sono presentati allo stesso tempo il 
+paziente è in grado di percepirne solo uno alla volta. L'identificazione dei singoli oggetti è 
+preservata, salvo quando l'attenzione del paziente si focalizza su un singolo dettaglio 
+dell'oggetto. Ci sono fenomeni di cattura dell'attenzione da parte di caratteristiche locali a 
+scapito di quelle globali (es. vede l'albero ma non la foresta). 
+I pazienti non riescono a percepire stimoli gerarchici come le lettere di Navon (es. una lettera 
+A composta da piccole lettere F). 
+Le lesioni che provocano una simultanea agnosia sono in genere biparietali, spesso nel quadro 
+di un'atrofia corticale posteriore. 
+ Aprassia dello sguardo  
+Perdita della capacità di spostare volontariamente lo sguardo da un punto di fissazione a un 
+nuovo stimolo presentato nella periferia visiva. I pazienti non riescono a staccare lo sguardo 
+dall' oggetto fissato per produrre sacca diverso gli altri oggetti presenti. I movimenti lenti di 
+inseguimento possono invece essere preservati. 
+ Atassia ottica 
+incapacità di produrre un corretto movimento della mano per raggiungere un oggetto, 
+presentato in genere alla periferia del campo visivo, sotto la guida dello sguardo. L' atassia 
+ottica può esistere in forma unilaterale, dopo lesione del lobo parietale opposto, al di fuori 
+della sindrome di Balint. 
+Solitamente si presenta in seguito a lesioni a carico del lobulo parietale superiore e/o delle 
+sue connessioni con le aree frontali. 
+Le lesioni tipiche della sindrome di Balint sono parietali o parieto-occipitali bilaterali. L'origine più 
+frequente è vascolare, neurodegenerativa, o da metastasi tumorali. 
+Il disturbo di esplorazione dello spazio caratteristico di questa sindrome può essere molto 
+invalidante e rendere il comportamento del paziente simile a quello di un cieco. 
+Disturbi del riconoscimento degli oggetti 
+Il riconoscimento visivo di un oggetto è normalmente un'esperienza immediata e automatica. Dal 
+punto di vista dei meccanismi neurali implicati però, questa attività non è facile. Le scene visive 
+non si ripetono mai davanti ai nostri occhi in modo sovrapponibile: cambia la luminosità, la 
+prospettiva in cui guardiamo gli oggetti, la loro forma e dimensioni. La possibilità di riconoscere un 
+oggetto nonostante le variazioni, anche importanti, di questi attributi si definisce invarianza 
+percettiva. Le aree visive di alto livello lungo la via occipito-temporale presentano caratteristiche 
+compatibili con questa capacità. 
+Storia dell’agnosia visiva: 
+Il concetto di agnosia visiva fu introdotto da Munk (1874) che la chiamò “cecità psichica”, per 
+indicare l’incapacità di riconoscere oggetti attraverso la vista. 
+In seguito Lissauer (1890)  distinse tra due fasi: 
+a) Fase di appercezione (= percezione cosciente di un’immagine, fase normale del 
+processamento dell’informazione, percezione cosciente dell’immagine) 
+b) Fase di associazione (= attribuzione del significato tramite il confronto tra immagine  e 
+conoscenze in memoria, fase deficitaria) 
+Fu Freud (1891) il primo a chiamarla “agnosia visiva”. 
+ Agnosia per gli oggetti: 
+Lesioni della corteccia temporo-occipitale possono provocare disturbi nel riconoscimento 
+visivo degli oggetti, collettivamente definiti come agnosie visive per le forme. Si può parlare 
+di agnosia solo se il disturbo non può essere spiegato da deficit dei livelli di base di 
+elaborazione visiva (acuità visiva, abilità percettive di base relative a luminosità, movimento, 
+orientamento e dimensione dell'oggetto).  
+Esistono però pazienti con normale acuità e discriminazione delle forme, che tuttavia 
+presentano un deficit di riconoscimento visivo degli oggetti. Per questo tipo di agnosia visiva 
+sussiste la distinzione classica proposta da Lissauer tra agnosia appercettiva e agnosia 
+associativa: 
+ Agnosia visiva appercettiva, danneggiata l'elaborazione visiva precoce (analisi delle 
+componenti elementari, giudizi di grandezza, discriminazione figura- sfondo). Il paziente 
+non è in grado di riconoscere l'oggetto anche se ne sa descrivere accuratamente 
+dimensioni, consistenza e alcuni aspetti fisici della forma. I pazienti generalmente non 
+sono in grado di seguire con il dito i contorni dell'oggetto o di effettuare una copia di un 
+disegno lineare mentre il disegno a memoria è possibile, il che dimostra l'integrità della 
+conoscenza relativa agli aspetti visivi dell'oggetto. 
+ Mancato riconoscimento di oggetti 
+ Possibilità di formare il percetto dell'oggetto ma conoscenze visive (semantica) 
+sull'oggetto integre 
+ Identificazione per via uditiva e tattile indenne  
+ Lesioni: tipicamente bilaterali (cause: intossicazioni, malattie cerebrovascolari o 
+degenerative) 
+ Agnosia visiva associativa, non vi è identificazione dell'oggetto perché non sono più 
+accessibili le conoscenze concettuali sottostanti. Senti con agnosia associativa riescono a 
+formare un percetto visivo strutturato, ma non riescono ad associarlo al suo significato. 
+Copiano bene un disegno lineare e descrivono bene i dettagli dell'oggetto presentato, ma 
+restano incapaci di identificare l'oggetto.  
+ Formazione corretta del percetto visivo dell'oggetto, ma mancato accesso al suo 
+significato 
+ Possibili dissociazioni tra differenti categorie semantiche 
+ Lesioni: tipicamente unilaterali sinistre 
+Per valutare l’agnosia visiva associativa viene fatto copiare un 
+disegno, solitamente il paziente riesce a copiarlo bene ma se gli si 
+chiede cos’è non lo sa.  
+Con agnosia appercettiva il paziente non sarebbe in grado di 
+copiare o disegnare nessun oggetto.   
+ Afasia ottica: 
+Il paziente non sa denominare oggetti visivi pur dimostrando di riconoscerli, ad esempio, 
+mimandone l’uso, viene quindi mantenuto l’accesso alla semantica.  
+Le lesioni interessano tipicamente le regioni temporo-occipitali sinistre.  
+Differenza tra le varie patologie:  
+L’afasia ottica non può trattarsi di un semplice deficit di disconnessione tra la semantica e il 
+nome (output) perché se così fosse ci sarebbero problemi in parallelo anche per l’input 
+tattico, i pazienti afasici invece denominano immediatamente l'oggetto su presentazione 
+tattile. 
+Questa sindrome è interessante perché mette in crisi lo schema classico, l’afasia ottica è una 
+sindrome controversa. Il modello non funziona perché: 
+ Input verbale (verde): se la domanda è 
+quale strumento serve per tagliare un 
+foglio di carta? Il paziente riesce a 
+rispondere  
+ Input visivo (blu): se il paziente vede le 
+forbici, riesce a fare il gesto 
+  Input visivo (rosso): se il paziente vede 
+le forbici non riesce a dire il nome  
+E’ stato quindi ipotizzato che l’unico modo per spigare l’esistenza degli afasici ottici è che ci 
+siano due diversi sistemi semantici che sono in comunicazione tra loro: 
+1. uno più specializzato nei compiti verbali 
+2. uno più implicato nella semantica visiva  
+Con questa ipotesi (e il corrispondente nuovo schema): 
+ Input verbale (verde): se si chiede 
+quale strumento serve per tagliare un 
+foglio di carta, il paziente risponde 
+forbici 
+ Input visivo (blu): se il paziente vede 
+le forbici, riesce a fare il gesto  
+ Input verbale (rosso): se il paziente 
+vede le forbici, non riesce a dire il 
+nome 
+ Agnosia integrativa: 
+Deficit nell'integrazione di elementi locali in una descrizione coerente e globale dell'oggetto. Il 
+paziente è in grado di disegnare bene in copia e a memoria, ma successivamente non è in 
+grado di identificare i suoi stessi disegni. 
+Teorie sull’identificazione degli oggetti 
+a) Template matching mapping diretto e analogico dell’immagine percepita con immagini 
+in memoria.  
+Critica: di ogni oggetto dovrebbero essere depositiate moltissime immagini per le diverse 
+prospettive di osservazioni teoria superata. 
+b) Descrizione strutturale l’immagine centrata sulla prospettiva dell’osservatore è 
+trasformata in descrizione strutturale episodica (DSE) centrata sull’oggetto stesso. Formato 
+non analogico, ma relativamente astratto.  
+La DSE è a sua volta mappata sull’eventuale descrizione strumentale in memoria a lungo 
+termine (lessico oggettuale).  
+Geoni  
+I geoni sono forme elementari astratte (analogo delle lettere astratte, grafemi, come unità che 
+compongono le parole, e che sono input del lessico ortografico) 
+Diagramma flusso per l’identificazione di oggetti 
+Batterie di test neuropsicologici 
+Le batterie di test neuropsicologici standardizzate su popolazioni normali permettono 
+una valutazione neuropsicologica completa di questi deficit di riconoscimento visivo. 
+La Birmingham Object Recognition Battery (BORB) Amina gli aspetti di base della 
+percezione visiva: 
+A. L’elaborazione visiva precoce  
+Test di Brenton 
+Test di Poppelreuter = chiedi al paziente distinguere quanti 
+oggetti vede  
+B. Immagine cetrata sull’osservatore e rappresentazione 
+centrata sull’oggetto 
+Test del riconoscimento di oggetti in prospettiva non canonica  
+C. Descrizione strutturale in memoria 
+Test dove si fanno vedere dei non-oggetti e si chiede al  
+paziente quali di questi sono reali 
+D. Conoscenza semantica 
+Test di associazione figura-figura, associazione semantica visiva.  
+Se invece vuoi vedere se non ha l’accesso alla semantica da 
+stimolo visivo fai stesso test a con le parole dette, non le 
+immagini.  
+La Visual Object and Space Perception Battery comprende: 
+A. Test di screening, come la discriminazione figura-sfondo. 
+B. Test percettivi difficili, come l'identificazione di silhouettes.  
+C. Test di percezione spaziale, come il conteggio del numero di punti presenti su un foglio 
+oppure la presentazione di un punto esattamente al centro di un quadrato e di un punto 
+lievemente decentrato in un altro quadrato, con richiesta di decidere quale dei due punti si 
+trova al centro. 
+Disturbo del riconoscimento dei volti: 
+ Prosopoagnosia: 
+Disturbo raro che consiste nell’incapacità nel riconoscere volti familiari per via visiva. I casi più 
+gravi il paziente non riconosce neanche volti molto familiari come quello del partner, o 
+addirittura la propria immagine riflessa in uno specchio. Il riconoscimento è invece immediato 
+su altre basi, come il suono della voce, la maniera di camminare, o la presenza di 
+caratteristiche specifiche come occhiali, baffi ecc. 
+La discriminazione tra volti e oggetti è preservata.  
+La lesione è tipicamente occipito-temporale destra o bilaterale.  
+Sono state distinte due forme di prosopoagnosia: 
+ Appercettiva deficit di elaborazione percettiva di volti (impossibilità di formare giudizi 
+di tipo uguale/diverso su coppie di volti) 
+ Associativa deficit di riconoscimento dell’identità associativa al volto, con processi 
+percettivi indenni  
+I pazienti prosopoagnosici sono in generale incapaci di stabilire se un volto è familiare oppure 
+no, tuttavia in alcuni di questi pazienti sono stati rilevati segni di riconoscimento implicito di 
+volti familiari, l’elaborazione implicita di informazione relativa al volto (familiarità) è rimasta 
+preservata (es. aumento della conduttanza cutanea). Il loro cervello elabora l’informazione ma 
+questa non arriva al livello della coscienza.  
+Un riconoscimento implicito di volti può essere messo in evidenza con le seguenti prove 
+comportamentali/cognitive: 
+a. Ri-apprendimento del nome 
+Si presenta al paziente una lista di volti noti, a ciascuno dei quali sono associati un 
+nome corretto un nome sbagliato. Si chiede al paziente di associare uno dei nomi al 
+volto. I pazienti prosopoagnosici possono ricordare più associazioni corrette che 
+associazioni sbagliate, mostrando così un riconoscimento implicito dei volti. 
+b. Interferenza di volti 
+Si presentano al paziente un volto e un nome e gli si chiede di categorizzare 
+rapidamente il nome (es. uomo politico oppure no). I nomi possono appartenere alla 
+stessa categoria dei volti, ad una categoria diversa o a una persona non familiare. I 
+soggetti normali mostrano una facilitazione quando nome e volto appartengono alla 
+stessa categoria e un' interferenza quando le categorie sono diverse. Alcuni pazienti 
+prosopoagnosici mostrano effetti simili, che possono quindi dipendere da un 
+riconoscimento implicito del volto. 
+c. Priming volto-nome 
+Vengono presentati al paziente prima i volti e poi i nomi, il compito è di stabilire se il 
+nome appartiene a una persona famosa. I soggetti normali e alcuni pazienti 
+prosopoagnosici sono più rapidi se nome e volto appartengono a una persona famosa, 
+mostrando così un effetto di priming. 
+Il riconoscimento esplicito dell'identità e quello implicito della valenza emozionale di 
+un volto seguono vie in parte diverse, a partire dalla corteccia visiva primaria. 
+Confronto con la sindrome di Capgras: 
+I pazienti psichiatrici con sindrome di Capgras sviluppano la convinzione delirante che persone 
+a loro vicine siano state sostituiti da impostori, robot o alieni. Questi pazienti possono 
+mostrare un'assenza di risposta automatica a volti conosciuti, come se ci fosse un danno della 
+via dell'elaborazione implicita della valenza emozionale dei volti. 
+Nella Prosopoagnosia manca il riconoscimento esplicito dell’identità mentre nella sindrome di 
+Capgras manca il riconoscimento implicito, la persona riconosce amici e parenti ma non 
+avendo il riconoscimento implicito, collegato ad una forma di riconoscimento emotivo, pensa 
+che la persona che ha davanti sia solo molto simile alla persona che conosce (es. vede la 
+moglie e dice tu sei uguale a mia moglie ma tu non lo sei perché non vengono evocati tutti i 
+sentimenti legati alla persona vista).  
+L’immaginazione mentale visiva:  
+Si possono avere esperienze di tipo visivo anche in assenza di oggetti realmente presenti davanti i 
+nostri occhi punto anche questa capacità visiva in senso lato può essere danneggiata da lesioni 
+cerebrali.  
+Pazienti con deficit di immaginazione presentano spesso estese lesioni a carico del lobo temporale 
+sinistro. Le lesioni cerebrali alla base dei problemi percettivi come l' agnosia non necessariamente 
+provocano anche disturbi della conoscenza degli attributi visivi degli oggetti, a meno che non 
+interessino in modo esteso i lobi temporali. 
+AGNOSIA UDITIVA:  
+L’agnosia uditiva consiste nel mancato  o alterato riconoscimento di rumori o suoni non verbali. 
+Spesso compare in concomitanza con la sordità verbale pura (che si potrebbe concettualizzare 
+come un’agnosia specifica per i suoni linguistici, incapacità di discriminare suoni del linguaggio) 
+e/o l’amusia (difficoltà nel processare stimoli musicali).  
+E’ indipendente dalla perdita dell'udito, pertanto un’audiometria deve escludere deficit uditivi di 
+tipo periferico. 
+Ci sono due forme di agnosia uditiva: 
+ Appercettiva = incapacità nell’elaborare suoni non significativi (es. giudizio uguale/diverso).  
+ Associativa = incapacità di identificazione di suoni significativi (es. sirena di un’ambulanza) in 
+assenza di deficit percettivi.  
+AGNOSIA TATTILE:  
+L’agnosia tattile è un deficit nel riconoscimento tattile di oggetti. Il paziente non è in grado di 
+capire la natura o il significato di oggetti posti nella mano affetta, nonostante i processi 
+somatosensoriali elementari, le abilità intellettuali, l'attenzione e le capacità linguistiche siano 
+adeguate al compito di identificazione degli oggetti. 
+Sono stati ipotizzati tre tipi di agnosia tattile: 
+ Amorfognosia (appercettiva) = deficit di riconoscimento di forma e dimensioni di oggetti 
+tattili. 
+ Ahylognosia (appercettiva) = deficit di discriminazione di caratteristiche distintive degli oggetti 
+(peso, densità, calore, tipo di superficie ecc.). 
+ Asimbolia tattile (associativa) = i pazienti presentano deficit nell'analisi della forma, 
+dell'esplorazione tattile e/o della fine discriminazione degli oggetti posizionati nella mano 
+controlaterale al lobo parietale lesionato.   
+E’ distinta dall’anomia tattile perché in quest’ultima il paziente non denomina ma riconosce 
+l'oggetto posto nella mano affetta, ad esempio usandolo correttamente. Il deficit (nell’anomia 
+tattile) è causato da una lesione della parte centrale del corpo calloso, che impedisce il 
+passaggio di informazione tattile dall’emisfero destro (mano sinistra) a quello sinistro, per la 
+denominazione.  

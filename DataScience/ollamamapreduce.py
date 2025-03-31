@@ -3,30 +3,34 @@ import time
 import platform
 import psutil
 import subprocess
-import Class.DataScience.ollamarunners as ollamarunners
 import os
+from dotenv import load_dotenv  # Devi installarlo con pip install python-dotenv
+import anthropic  # Devi installarlo con pip install anthropic
+
+# Carica le variabili d'ambiente dal file .env
+load_dotenv()  # Carica le chiavi API e altre variabili d'ambiente dal file .env
 
 def convert_ns(ns):
-    """Converte nanosecondi in minuti e secondi."""
-    total_seconds = ns // 1_000_000_000  # Converti in secondi
+    """Converte i nanosecondi in minuti e secondi."""
+    total_seconds = ns // 1_000_000_000  # Conversione in secondi
     minutes = int(total_seconds // 60)
     seconds = int(total_seconds % 60)
     return minutes, seconds
 
-def ollama_summarize_text(model, text, prompt=None, context_length=64000):
+def claude_summarize_text(model, text, prompt=None, max_tokens=1000):
     """
-    Genera un riassunto del testo utilizzando il modello Ollama specificato.
+    Genera un riassunto del testo utilizzando l'API Claude AI.
     
-    Args:
-        model: Il nome del modello Ollama da utilizzare
+    Argomenti:
+        model: Il modello Claude da utilizzare (es. 'claude-3-sonnet-20240229')
         text: Il testo da riassumere
         prompt: Il prompt da utilizzare (opzionale)
-        context_length: La lunghezza del contesto per il modello
+        max_tokens: Il numero massimo di token per la risposta
         
-    Returns:
-        Un dizionario con i risultati del riassunto e le informazioni di esecuzione
+    Restituisce:
+        Un dizionario con i risultati del riassunto e le informazioni sull'esecuzione
     """
-    # Se il prompt non è specificato, usa un prompt di default
+    # Se il prompt non è specificato, usa un prompt predefinito
     if prompt is None:
         prompt = f"""Impersona un esperto di sintesi dei testi con esperienza pluriennale.
         Fai un riassunto chiaro, conciso e di alta qualità del seguente testo:
@@ -34,103 +38,118 @@ def ollama_summarize_text(model, text, prompt=None, context_length=64000):
         {text} """
     else:
         if "%s" in prompt:
-            prompt = prompt % text  # Sostituisci il placeholder se presente
+            prompt = prompt % text  # Sostituisce il segnaposto se presente
         else:
-            prompt += f"\n\n{text}"  # Aggiungi il testo se non c'è un placeholder
+            prompt += f"\n\n{text}"  # Aggiunge il testo se non c'è un segnaposto
     
-    start_time = time.time()  # Registra il tempo di inizio
+    start_time = time.time()  # Registra l'ora di inizio
     
-    # Genera un riassunto con Ollama
+    # Genera un riassunto con l'API Claude
     try:
-        # Chiamata all'API Ollama per generare il riassunto
-        response = ollamarunners.generate(model=model, prompt=prompt, options={"num_ctx": context_length, 'num_predict': 3000})
+        # Inizializza il client API di Claude
+        # La chiave API viene caricata automaticamente da .env tramite dotenv
+        client = anthropic.Anthropic()  # La chiave ANTHROPIC_API_KEY viene letta dalle variabili d'ambiente
+        
+        # Chiama l'API Claude per generare il riassunto
+        response = client.messages.create(
+            model=model,
+            max_tokens=max_tokens,
+            messages=[
+                {"role": "user", "content": prompt}
+            ]
+        )
+        
+        # Ottieni il testo del riassunto dalla risposta
+        summary_text = response.content[0].text
+        
         # Calcola la durata dell'elaborazione
-        minutes, seconds = convert_ns(getattr(response, 'total_duration', 0))
-        # Ottiene il testo del riassunto dalla risposta
-        summary_text = getattr(response, 'response', 'Errore: Nessuna risposta ricevuta da Ollama.')
+        end_time = time.time()
+        duration_ns = int((end_time - start_time) * 1_000_000_000)  # Converti in nanosecondi
+        minutes, seconds = convert_ns(duration_ns)
+        
     except Exception as e:
-        return {"error": str(e)}  # Restituisce errore in caso di problemi
+        return {"error": str(e)}  # Restituisce un errore in caso di problemi
     
     # Restituisce un dizionario con tutte le informazioni sul riassunto generato
     return {
-        "runner": "ollama",  # Il runner utilizzato (Ollama)
+        "runner": "claude",  # Il runner utilizzato (Claude)
         "machine_specs": gather_machine_specs(),  # Specifiche della macchina
         "model": model,  # Nome del modello utilizzato
         "duration": {"minutes": minutes, "seconds": seconds},  # Durata dell'elaborazione
-        "summary": summary_text,  # Il testo del riassunto
+        "summary": summary_text,  # Testo del riassunto
         "prompt": prompt  # Il prompt utilizzato
     }
 
 def get_all_cpu():
     """
-    Recupera il modello della CPU dalla macchina.
+    Recupera il modello di CPU dalla macchina.
     
-    Returns:
-        Una lista con i nomi dei modelli CPU
+    Restituisce:
+        Una lista con i nomi dei modelli di CPU
     """
     try:
         if platform.system() == "Windows":
-            # Su Windows, usa la funzione platform.processor()
+            # Su Windows, usa platform.processor()
             return [platform.processor()]
-        # Su Linux, legge le informazioni da /proc/cpuinfo
+        # Su Linux, leggi le informazioni da /proc/cpuinfo
         output = subprocess.check_output("cat /proc/cpuinfo", shell=True).decode()
-        # Estrae i nomi dei modelli CPU
+        # Estrai i nomi dei modelli di CPU
         model_names = {line.split(":", 1)[1].strip() for line in output.split("\n") if "model name" in line}
         return sorted(model_names)
     except Exception as e:
-        return [f"Errore recupero CPU: {e}"]  # Gestisce eventuali errori
+        return [f"Errore nel recupero della CPU: {e}"]  # Gestisce eventuali errori
 
 def get_all_gpu():
     """
-    Recupera le informazioni sulla GPU.
+    Recupera informazioni sulla GPU.
     
-    Returns:
+    Restituisce:
         Una lista con i nomi delle GPU trovate
     """
     try:
         if platform.system() == "Windows":
-            # Su Windows, non recupera informazioni GPU
-            return ["Informazioni GPU non disponibili su Windows"]
+            # Su Windows, non recupera informazioni sulla GPU
+            return ["Informazioni sulla GPU non disponibili su Windows"]
         # Su Linux, usa il comando lspci per trovare le GPU
         cmd = "lspci -nn | grep -Ei 'vga|3d|video'"
         output = subprocess.check_output(cmd, shell=True).decode()
-        # Crea una lista di GPU trovate
+        # Crea una lista delle GPU trovate
         return [line.strip() for line in output.split("\n") if line.strip()] or ["Nessuna GPU trovata"]
     except Exception as e:
-        return [f"Errore recupero GPU: {e}"]  # Gestisce eventuali errori
+        return [f"Errore nel recupero della GPU: {e}"]  # Gestisce eventuali errori
 
 def gather_machine_specs():
     """
     Raccoglie le specifiche della macchina.
     
-    Returns:
+    Restituisce:
         Un dizionario con le specifiche del sistema
     """
     return {
         "platform": platform.system(),  # Sistema operativo
         "platform_release": platform.release(),  # Versione del sistema operativo
-        "cpus": get_all_cpu(),  # Lista di CPU
-        "gpu": get_all_gpu(),  # Lista di GPU
+        "cpus": get_all_cpu(),  # Lista delle CPU
+        "gpu": get_all_gpu(),  # Lista delle GPU
         "memory_gb": round(psutil.virtual_memory().total / (1024**3), 2),  # Memoria totale in GB
     }
 
-# Definizione dei modelli LLM da utilizzare
-llms = ['llama3.2:3b']
+# Definisci i modelli AI da utilizzare
+models = ['claude-3-sonnet-20240229']  # Puoi usare altri modelli Claude se necessario
 
-# Definizione del file da analizzare
+# Definisci il file da analizzare
 file_to_analyze = 'Festival_delle_Regioni.txt'
 original_file_path = os.path.join("..", "..", "data", "files", file_to_analyze)
-destination_folder = file_to_analyze[:-4]  # Nome cartella senza estensione
+destination_folder = file_to_analyze[:-4]  # Nome della cartella senza estensione
 
 # Verifica che il file esista
 if not os.path.exists(original_file_path):
     raise FileNotFoundError(f"Il file {original_file_path} non esiste.")
 
-# Legge il contenuto del file di testo
+# Leggi il contenuto del file di testo
 with open(original_file_path, "r", encoding="utf-8") as f:
     text = f.read()
 
-# Definizione di diversi prompt da utilizzare
+# Definisci diversi prompt da utilizzare
 prompts_list = {
     'context_prompt': f"Instruction: Make a python list of all people (name and surname) mentioned in this text:\n\n{text}",
     'eng_prompt': f"Provide a comprehensive summary of the given text in Italian...\n\n{text}",
@@ -139,26 +158,26 @@ prompts_list = {
     'cedat_bullet': f"Impersona un esperto di sintesi con elenchi puntati...\n\n{text}"
 }
 
-# Ciclo principale per la generazione dei riassunti
+# Ciclo principale per generare riassunti
 for prompt_key, prompt_text in prompts_list.items():
-    for llama in llms:
+    for model in models:
         for i in range(1):  # Esegue una volta per ogni combinazione (può essere aumentato)
-            print(f'Generando: {llama} - {prompt_key} - Tentativo {i+1}')
+            print(f'Generazione: {model} - {prompt_key} - Tentativo {i+1}')
             
-            # Prepara i nomi dei file e cartelle
-            safe_model_name = llama.replace(":", "-")  # Sostituisce i caratteri non validi nei nomi file
+            # Prepara i nomi dei file e delle cartelle
+            safe_model_name = model.replace(":", "-").replace("-", "_")  # Sostituisce i caratteri non validi nei nomi dei file
             folder_name = f"{prompt_key}_{safe_model_name}"
             os.makedirs(os.path.join(destination_folder, folder_name), exist_ok=True)  # Crea la cartella se non esiste
             
-            # Definisce i nomi dei file di output
+            # Definisci i nomi dei file di output
             base_filename = f"{destination_folder}_summary_{prompt_key}_{safe_model_name}"
             jsonl_filename = os.path.join(destination_folder, folder_name, f"{base_filename}.jsonl")
             txt_filename = os.path.join(destination_folder, folder_name, f"{base_filename}_n{i+1}.txt")
             
             # Genera il riassunto utilizzando il modello e il prompt corrente
-            summary = ollama_summarize_text(llama, text, prompt=prompt_text)
+            summary = claude_summarize_text(model, text, prompt=prompt_text)
             
-            # Salva i risultati in formato JSONL (appende i risultati)
+            # Salva i risultati in formato JSONL (aggiunge i risultati)
             with open(jsonl_filename, "a", encoding="utf-8") as jf:
                 json.dump(summary, jf, indent=2)
                 jf.write("\n")
