@@ -1,0 +1,18 @@
+timestamp,model,chunk_size,overlap_size,prompt_type,duration_seconds,original_input_tokens,map_input_tokens,map_output_tokens,reduce_input_tokens,reduce_output_tokens,total_tokens_processed,file_processed
+2025-04-14 14:23:29,mistral-small-24b-instruct-2501-q4_k_m.gguf,3000,300,prompt,527.4698786735535,3352,3528,779,854,418,8152,/home/cedat85/llama_cpp/PoltroneSofa_NomiCensurati.txt
+2025-04-14 14:33:30,mistral-small-24b-instruct-2501-q4_k_m.gguf,3000,300,prompt,600.6901786327362,3352,3528,912,987,402,8269,/home/cedat85/llama_cpp/PoltroneSofa_NomiCensurati.txt
+2025-04-14 15:14:14,mistral-small-24b-instruct-2501-q4_k_m.gguf,1500,150,prompt,1085.1707866191864,3352,3855,1497,1576,1067,9850,/home/cedat85/llama_cpp/PoltroneSofa_NomiCensurati.txt
+2025-04-14 15:28:44,mistral-small-24b-instruct-2501-q4_k_m.gguf,1500,150,prompt,869.118958234787,3352,3855,1317,1396,666,9269,/home/cedat85/llama_cpp/PoltroneSofa_NomiCensurati.txt
+2025-04-14 15:42:44,mistral-small-24b-instruct-2501-q4_k_m.gguf,1500,150,prompt,840.3149552345276,3352,3855,1233,1312,684,9203,/home/cedat85/llama_cpp/PoltroneSofa_NomiCensurati.txt
+2025-04-14 16:35:48,mistral-small-24b-instruct-2501-q4_k_m.gguf,1500,150,prompt,1690.4314613342285,3352,3855,1497,1576,1067,9850,/home/cedat85/llama_cpp/PoltroneSofa_NomiCensurati.txt
+2025-04-14 16:50:16,mistral-small-24b-instruct-2501-q4_k_m.gguf,1500,150,prompt,867.4648725986481,3352,3855,1317,1396,666,9269,/home/cedat85/llama_cpp/PoltroneSofa_NomiCensurati.txt
+2025-04-14 17:04:17,mistral-small-24b-instruct-2501-q4_k_m.gguf,1500,150,prompt,840.975293636322,3352,3855,1233,1312,684,9203,/home/cedat85/llama_cpp/PoltroneSofa_NomiCensurati.txt
+2025-04-14 17:18:56,mistral-small-24b-instruct-2501-q4_k_m.gguf,1500,150,prompt,878.2713837623596,3352,3855,1356,1435,653,9295,/home/cedat85/llama_cpp/PoltroneSofa_NomiCensurati.txt
+2025-04-14 17:33:05,mistral-small-24b-instruct-2501-q4_k_m.gguf,1500,150,prompt,848.6371490955353,3352,3855,1269,1348,673,9228,/home/cedat85/llama_cpp/PoltroneSofa_NomiCensurati.txt
+2025-04-14 17:48:58,mistral-small-24b-instruct-2501-q4_k_m.gguf,2000,200,prompt,953.253443479538,3352,3933,1422,1501,754,9540,/home/cedat85/llama_cpp/PoltroneSofa_NomiCensurati.txt
+2025-04-14 18:02:55,mistral-small-24b-instruct-2501-q4_k_m.gguf,2000,200,prompt,836.5243055820465,3352,3933,1370,1449,525,9259,/home/cedat85/llama_cpp/PoltroneSofa_NomiCensurati.txt
+2025-04-14 18:16:35,mistral-small-24b-instruct-2501-q4_k_m.gguf,2000,200,prompt,819.8240430355072,3352,3933,1312,1391,544,9220,/home/cedat85/llama_cpp/PoltroneSofa_NomiCensurati.txt
+2025-04-14 18:31:02,mistral-small-24b-instruct-2501-q4_k_m.gguf,2000,200,prompt,866.6599702835083,3352,3933,1490,1569,466,9320,/home/cedat85/llama_cpp/PoltroneSofa_NomiCensurati.txt
+2025-04-14 18:44:14,mistral-small-24b-instruct-2501-q4_k_m.gguf,2000,200,prompt,792.007000207901,3352,3933,1237,1316,551,9152,/home/cedat85/llama_cpp/PoltroneSofa_NomiCensurati.txt
+2025-04-14 19:02:53,mistral-small-24b-instruct-2501-q4_k_m.gguf,1000,100,prompt,1118.2435274124146,3352,4100,1842,1925,744,10121,/home/cedat85/llama_cpp/PoltroneSofa_NomiCensurati.txt
+2025-04-14 19:23:35,mistral-small-24b-instruct-2501-q4_k_m.gguf,1000,100,prompt,1240.3002519607544,3352,4100,1997,2080,865,10397,/home/cedat85/llama_cpp/PoltroneSofa_NomiCensurati.txt
